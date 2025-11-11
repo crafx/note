@@ -10,8 +10,12 @@
 
 function XO(str) {
   //code here
-  for 
-
+  str = str.toLowerCase()
+  let x = 0,
+    o = 0
+  for (const ch of str) {
+    if (ch === 'x') x++
+    if (ch === 'o') o++
+  }
+  return x === o
 }
-
-XO(xxxoo)
