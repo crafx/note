@@ -28,5 +28,3 @@ function past(h, m, s) {
 }
 
 past(0,1,1)   
-
-  

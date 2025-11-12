@@ -27,7 +27,7 @@ function openOrSenior(data) {
     if (age >= 55 && handicap > 7) {
       all.push('Senior')
     } else {
-      all.push('Open')
+      all.push('Op  en')
     }
   }
 
