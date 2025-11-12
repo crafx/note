@@ -26,6 +26,7 @@ diceEl.classList.add('hidden');
 // Rolling dice functionality
 const rNumber = Math.floor(Math.random() * 6) + 1;
 
-btnRoll.addEventListener('click' , funcion(){ 
-  pCureentScore0.textContent = rNumber ; 
-})
+btnRoll.addEventListener('click', function () {
+  for( pCureentScore0 = 0 ;  )
+  pCureentScore0.textContent = rNumber;
+});
